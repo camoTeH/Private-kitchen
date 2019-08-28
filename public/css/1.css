@@ -1,0 +1,97 @@
+img{
+    border: 0;
+}
+.tabmenu {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+}
+
+.tabmenu li {
+    display: inline-block;
+}
+
+.tabmenu li a {
+    display: block;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+    border: 1px solid #91a7b4;
+    border-radius: 0 0 5px 5px;
+    background: #e3f1f8;
+    color: #333;
+    text-decoration: none;
+}
+
+.tablist {
+    width: 990px;
+    position: relative;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+.tab_content {
+    position: absolute;
+    width: 990px;
+    height: 170px;
+    padding-bottom: 30px;
+    border: 1px solid #91a7b4;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #666;
+    background: #fff;
+}
+.tab_content ul>li{
+    display: inline-block;
+}
+/*使用css3(:target属性实现)，z-index控制元素层级*/
+#tab1:target, #tab2:target, #tab3:target {
+    z-index: 1;
+}
+.m { margin: 100px; }
+.tab { width: 400px; margin: 0 auto; border: 1px solid #ddd; height: 40px; text-align: center; line-height: 40px; background: #fff; border-radius: 10px; overflow: hidden; }
+.tab li { float: left; width: 100px; position: relative; overflow: hidden; }
+.tab li:before, .tab li:after, .tab li a { -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
+.tab li:before, .tab li:after { content: ""; display: block; }
+.tab li:not(:first-child):after { background: #ddd; height: 20px; width: 1px; left: 0; top: 10px; position: absolute; }
+.tab li a { display: block; position: relative; z-index: 2; color: #000; font-size: 14px; }
+.tab li:before { width: 0; height: 0; top: 50%; left: 50%; z-index: 1; position: absolute; }
+.tab li:hover a { color: #fff; }
+.tab li:hover:before { box-shadow: 0 0 0 100px #36bc99; }
+.tab li:hover + li:after, .tab li:hover:after { height: 0; top: 20px; }
+
+.tablist .tab_content ul{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+.tablist .tab_content ul li a{
+    display: block;
+    height: 117px;
+    width: 117px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.tablist .tab_content ul li a img{
+    display: block;
+    height: 117px;
+    width: 117px;
+}
+.tablist .tab_content ul li a span{
+    width: 117px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    background-color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 89px;
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    opacity: 0.7;
+}
+.tablist .tab_content ul li a:hover span{
+    color: red;
+}

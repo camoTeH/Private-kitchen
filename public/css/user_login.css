@@ -1,0 +1,320 @@
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family:"Hiragino Sans GB","冬青黑体","Microsoft Yahei","微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+
+/* <!-- 最外层div --> */
+.main_w{
+    width:100% ;
+    /* height: 1100px; */
+    background-color: #FAE8C8;
+    padding: 30px 0 30px 0;
+}
+.new_loginpage{
+    margin:0 auto;
+    width: 1000px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* .new_loginpage::after{
+    contain: "";
+    display: block;
+    clear: both;
+} */
+/* <!-- 标题 nl_title --> */
+.nl_title{
+    margin: 40px 0;
+    font-size:22px;
+    color:#333333;
+    font-family:"Hiragino Sans GB" ; 
+}
+.nl_title>span{
+    
+    vertical-align:center ;
+    background-repeat:no-repeat; 
+    width: 91px;
+    height: 9px;
+    margin-bottom: 3px;
+    background-size:cover; 
+}
+.nl_t_left{
+    display: inline-block;
+    background-image:url(../images/nl_title_left.png);
+    margin-right: 10px;
+}
+.nl_t_right{
+    display: inline-block;
+    background-image:url(../images/nl_title_right.png);
+    margin-left:10px; 
+}
+
+/* <!-- 登陆nl_loginbox_w top --> */
+.nl_loginbox_w{
+    width: 320px;
+    margin: 0 auto;
+}
+.msjLogin0>div:first-child{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    background-color:#C90000 ;
+    color:#ffffff;
+    font-size: 14px;
+    margin-bottom: 20px;    
+}
+/* .login_false_tip{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    background-color:#C90000 ;
+    color:#ffffff;
+    font-size: 14px;
+    margin-bottom: 20px;
+} */
+.text,.password{
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    padding: 11px;
+    width: 296px;
+    /* font-family: "Hiragino Sans GB","冬青黑体","Microsoft Yahei","微软雅黑"; */
+}
+
+form.login_form>div:nth-child(1),
+form.login_form>div:nth-child(2),
+form.login_form>div:nth-child(3){
+    margin-bottom: 15px;
+}
+form.login_form>div:nth-child(3){
+    width: 320px;
+    color:#666;
+    font-size:14px ;
+    height: 33px;
+    vertical-align: top;
+    display: flex;
+}
+form.login_form>div:nth-child(3)>label>a{
+    color:#666;
+    font-size:13px ;
+    display: inline-block;
+    margin-left: 140px;
+    text-align: right;
+}
+/* <!-- 登陆 --> */
+.nl_loginitem>.submit,
+.nl_pregitem>.submit{
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    height: 42px;
+    border: 1px solid #db432e;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px 24px;
+    /* font-family: "Hiragino Sans GB","冬青黑体","Microsoft Yahei","微软雅黑"; */
+    background: #ec5541;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+/* <!-- 登陆nl_loginbox_w top --> */
+
+/* <!-- 注册 nl_more_zc --> */
+.nl_more_zc{
+    margin: 0 auto;
+    width: 602px;
+    /* height: 437px; */
+    padding-bottom:25px;
+    background-color:#F5F5F5;
+}
+
+.nl_tab{
+    margin:35px 0;
+    /* color:#999999; */
+}
+/* .open~span{
+    display: none;
+} */
+.nl_tab>span:nth-child(2){
+    color:#999999;    
+}
+.btnspan{
+    color:#999999;
+}
+.nl_tab>span{
+    font-size: 18px;
+    /* color:#999999; */
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nl_tab>span:first-child{
+    margin-right: 13px;
+}
+.nl_tab>span:last-child{
+    margin-left: 13px;
+}
+
+/* <!-- 手机注册 表单  --> */
+.register_form_pn{
+    width: 320px;
+    margin:0 auto;
+}
+.register_form_pn{
+    text-align: left;
+}
+.register_form_pn>div{
+    margin-bottom: 5px;
+}
+/* .register_form_pn>div:first-child{
+    margin-top: 15px;
+} */
+.register_form_pn>div:nth-child(7),
+.register_form_pn>div:nth-child(8){
+    margin-top: 12px;
+}
+.register_form_pn>div:nth-child(11){
+    margin-top: 15px;
+    font-size: 13px;
+    color:#666666;
+}
+.register_form_pn>div:nth-child(12){
+    margin-top: 30px;
+}
+.register_form_pn>div.red:nth-child(2),
+.register_form_pn>div.red:nth-child(5),
+.register_form_pn>div.red:nth-child(9){
+    font-size: 13px;
+    color:#ec5541;
+}
+.register_form_pn>div.blue:nth-child(2),
+.register_form_pn>div.blue:nth-child(5),
+.register_form_pn>div.blue:nth-child(9){
+    font-size: 13px;
+    color:#7eceF4;
+}
+.register_form_pn>div:nth-child(3),
+.register_form_pn>div:nth-child(6),
+.register_form_pn>div:nth-child(10){
+    color:#8fc31f;
+    font-size: 13px;
+}
+.register_form_pn>div:nth-child(2)>span,
+.register_form_pn>div:nth-child(5)>span,
+.register_form_pn>div:nth-child(3)>span,
+.register_form_pn>div:nth-child(6)>span,
+.register_form_pn>div:nth-child(9)>span,
+.register_form_pn>div:nth-child(10)>span{
+    display: inline-block;
+    text-align: center;
+    line-height: 13px;
+    width: 13px;
+    height: 13px;
+    /* border:1px solid red; */
+    border-radius: 50%;
+    vertical-align:middle;
+    font-size: 0.6rem;
+    margin-right: 5px;
+    color:#ffffff;
+}
+.register_form_pn>div.red:nth-child(2)>span,
+.register_form_pn>div.red:nth-child(5)>span,
+.register_form_pn>div.red:nth-child(9)>span{
+    border:1px solid #ec5541;
+    background:#ec5541;    
+}
+.register_form_pn>div.blue:nth-child(2)>span,
+.register_form_pn>div.blue:nth-child(5)>span,
+.register_form_pn>div.blue:nth-child(9)>span{
+    border:1px solid #7eceF4;
+    background:#7eceF4;    
+}
+.register_form_pn>div:nth-child(3)>span,
+.register_form_pn>div:nth-child(6)>span,
+.register_form_pn>div:nth-child(10)>span{
+    border:1px solid #8fc31f;
+    background:#8fc31f;    
+}
+.phone_yzmbtn{
+    width: 134px;
+    height: 43px;
+    line-height: 43px;
+    display: inline-block;
+    background: #ddd;
+    border: 1px solid #ccc;
+    color: #999;
+    /* padding: 10px 10px; */
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+}
+.agree{
+    color:#ec5541;
+}
+.nl_login_ww{
+    display: flex;
+    justify-content: center;
+}
+/* .nl_login_w{
+    margin-right: 50px;
+} */
+.hidden{
+    display: none;
+}
+.block{
+    display: block;
+}
+/* .reg_left{
+    display: none;
+} */
+
+/* <!-- 登陆和注册之间的切换 --> */
+#Change{
+    margin:40px 0 20px 0;
+    color: #333;
+    font-size: 15px;
+}
+#Change>p:nth-child(1){
+    width: 151px;
+}
+.rotate{
+    display:inline-block;
+    transform:rotate(-180deg);
+}
+#Change>p:nth-child(2){
+    width:166px;
+}
+#Change>p{
+    cursor: pointer;
+    margin: 0 auto;
+}
+#Change>p:hover{
+    color:#ec5541;
+    border-bottom:1px solid #ec5541;    
+}
+.rHidden{
+    display:none;
+}
+.rBlock{
+    display:block;
+}
+
+.tipNone{
+    display: none;
+}

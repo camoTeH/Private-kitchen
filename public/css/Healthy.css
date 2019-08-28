@@ -1,0 +1,229 @@
+.bbtitles{
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    position: relative;
+    display: block;
+}
+.bbtitles a{
+    color: #222;
+    display: inline-block;
+    vertical-align: top;
+}
+.bbtitles a.jksz{
+    padding-left: 40px;
+    background: url(../images/Healthy/Icon-Small.png) left center no-repeat;
+}
+.listnav{
+    width: 990px;
+    margin: 0px auto;
+    margin-top: 20px;
+    position: relative;
+}
+.listnav_ul{
+    height: 50px;
+    width: 990px;
+    background: rgba(255,255,255,0.5);
+}
+.listnav_ul li{
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+.listnav_ul li:hover{
+    background: #fff;
+}
+.listnav_ul li a.link{
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    padding: 0px 24px;
+    position: relative;
+}
+.listnav_ul li a.active{
+    color: #ff3232;
+    background: #fff;
+}
+.listnav_ul li:hover a.link{
+    color: #ff3232;
+}
+.listnav_con{
+    background: #fff;
+    width: 990px;
+}
+.listnav_con .listnav_dl{
+    width: 177px;
+    padding: 10px 16px 14px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.listnav_con .listnav_dl dt{
+    display: Block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 24px;
+    color: #333;
+    font-family: Microsoft Yahei;
+    position: relative;
+}
+.listnav_con .listnav_dl dd{
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+}
+.listnav_con .listnav_dl dd:hover a{
+    background: red;
+    color: #fff;
+}
+.listnav_con .listnav_dl_1 dd:hover a{
+    background: red;
+    color: #fff;
+}
+.listnav_con .listnav_dl_2 dd:hover a{
+    background: red;
+    color: #fff;
+}
+.listnav_con .listnav_dl_3 dd:hover a{
+    background: red;
+    color: #fff;
+}
+.listnav_con .listnav_dl dd a{
+    padding: 0px 8px;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.listnav_con .listnav_dl_1{
+    width: 528px;
+    padding: 10px 16px 14px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.listnav_con .listnav_dl_1 dt{
+    display: Block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 24px;
+    color: #333;
+    font-family: Microsoft Yahei;
+    position: relative;
+}
+.listnav_con .listnav_dl_1 dd{
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+}
+.listnav_con .listnav_dl_1 dd a{
+    padding: 0px 8px;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+}
+.listnav_con .listnav_dl_2{
+    width: 177px;
+    padding: 10px 16px 14px;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+}
+.listnav_con .listnav_dl_2 dt{
+    display: Block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 24px;
+    color: #333;
+    font-family: Microsoft Yahei;
+    position: relative;
+}
+.listnav_con .listnav_dl_2 dd{
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+}
+.listnav_con .listnav_dl_2 dd a{
+    padding: 0px 8px;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+}
+.listnav_con .listnav_dl_3{
+    width: 957px;
+    padding: 10px 16px 14px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.listnav_con .listnav_dl_3 dt{
+    display: Block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 24px;
+    color: #333;
+    font-family: Microsoft Yahei;
+    position: relative;
+}
+.listnav_con .listnav_dl_3 dd{
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+}
+.listnav_con .listnav_dl_3 dd a{
+    padding: 0px 8px;
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+}
+.span:hover{
+    color: red;
+}
+.span span{
+    color: #999;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+

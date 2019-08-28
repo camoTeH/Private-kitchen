@@ -1,0 +1,146 @@
+.cp_header{
+    width: 990px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.cp_header_img{
+    width: 328px;
+    float: left;
+    overflow: hidden;
+}
+.cp_header_img img{
+    width: 328px;
+    display: block;
+    float: left;
+}
+.cp_main_info{
+    float: right;
+    width: 662px;
+    position: relative;
+    overflow: hidden;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cp_main_info .info1{
+    padding-left: 25px;
+    border-bottom: 1px solid #eee;
+    height: 159px;
+}
+.cp_main_info .info1 .word{
+    max-width: 288px;
+    height: 44px;
+    padding: 28px 0px;
+    line-height: 44px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+}
+.favbtns{
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.favbtns .Collection{
+    display: inline-block;
+    vertical-align: top;
+    background: #ff3232;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    height: 48px;
+    padding: 0px 14px;
+    border: 1px solid #e90808;
+    border-right: 0px;
+    line-height: 48px;
+}
+.bdshare{
+    display: inline-block;
+    vertical-align: top;
+}
+.bdshare{
+    height: 50px;
+    width: 168px;
+    background: #f5f5f5;
+    position: relative;
+    float: left;
+    line-height: 50px;
+}
+.cp_main_info .info2 p{
+    line-height: 24px;
+    font-size: 14px;
+    padding: 20px 24px 10px;
+    color: #666;
+}
+.cp_main_info .info2 .p1{
+    border-bottom: 1px solid #eee;
+}
+.cp_main_info .info2 strong{
+    font-size: 24px;
+    color: #333;
+    height: 66px;
+    line-height: 66px;
+    text-indent: 24px;
+    font-family: Microsoft Yahei;
+    display: block;
+}
+.cp_main_info .info2 .cl{
+    padding-left: 24px;
+}
+.measure{
+    background: #fff;
+    margin-bottom: 20px;
+}
+.cpc_h2{
+    font-size: 24px;
+    color: #333;
+    height: 66px;
+    line-height: 66px;
+    border-bottom: 1px solid #eee;
+    text-indent: 24px;
+    font-family: Microsoft Yahei;
+    display: block;
+}
+.measure .editnew{
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.measure .editnew .content{
+    line-height: 24px;
+    padding: 0px 20px 0px 0px;
+    position: relative;
+}
+.measure .editnew .content .step{
+    font-size: 50px;
+    color: #ff3232;
+    font-style: italic;
+    text-align: center;
+    font-family: arial;
+    height: 50px;
+    width: 100px;
+    display: Block;
+    float: left;
+    line-height: 50px;
+}
+.measure .editnew .content .c{
+    float: left;
+    width: 550px;
+    overflow: hidden;
+}
+.measure .editnew p{
+    line-height: 24px;
+    color: #666;
+    padding: 10px 20px 10px 0px;
+    position: relative;
+    font-size: 14px;
+}
+
+
+
+
+

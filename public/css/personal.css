@@ -1,0 +1,261 @@
+img{
+    border: none;
+}
+.main{
+    width: 990px;
+    margin: 0px auto;
+}
+.bbtitles{
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    position: relative;
+    display: block;
+}
+.userheader{
+    height: 210px;
+    margin: 0px auto 20px;
+    width: 990px;
+    background: #fff;
+}
+.userheader .avatar_w{
+    height: 210px;
+    width: 210px;
+    float: left;
+}
+.userheader .avatar_w img{
+    display: block;
+    height: 210px;
+    width: 210px;
+}
+.userh_main{
+    float: left;
+    width: 570px;
+    height: 210px;
+}
+.userh_main div.info1{
+    height: 105px;
+    border-bottom: 1px solid #eee;
+    margin: 0px 20px;
+    width: 530px;
+    position: relative;
+}
+.userh_main div.info1 h1{
+    font-size: 24px;
+    color: #333;
+    line-height: 44px;
+    font-family: Microsoft Yahei;
+    padding-top: 14px;
+}
+.userh_main div.info1 span.info{
+    line-height: 22px;
+    color: #999;
+}
+.userh_main div.info1 span.info em{
+    padding: 0px 4px;
+    font-size: 15px;
+}
+.userh_main div.info1 span.info em a{
+    color: #999;
+    
+}
+.userh_main div.info1 span.info em a:hover{
+    color: red;
+}
+.userh_main .tools{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    height: 22px;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+}
+.userh_main .tools a.mail{
+    display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    padding: 0px 12px;
+    background: #eee;
+    text-align: center;
+    color: #999;
+    line-height: 22px;
+}
+.userheader .user_userinfo{
+    width: 170px;
+    padding: 20px;
+    float: left;
+    background: #fff;
+    height: 170px;
+}
+.userheader .user_userinfo  ul li{
+    height: 81px;
+    width: 81px;
+    float: left;
+    background: #f8f8f8;
+}
+.userheader .user_userinfo  ul li a{
+    display: block;
+    height: 81px;
+    width: 81px;
+    border: 0;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.05) inset;
+}
+.userheader .user_userinfo  ul li a span{
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    display: block;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+.userheader .user_userinfo  ul li a strong{
+    display: block;
+    font-size: 18px;
+    color: #ff3232;
+    font-family: Microsoft Yahei;
+    padding-left: 14px;
+    line-height: 32px;
+}
+.userheader .user_userinfo  ul .li1,
+.userheader .user_userinfo  ul .li1 a{
+    margin: 0px 8px 8px 0px;
+    border-radius: 32px;
+    border-bottom-right-radius: 0;
+}
+.userheader .user_userinfo  ul .li2,
+.userheader .user_userinfo  ul .li2 a{
+    margin: 0px 0px 8px 0px;
+    border-radius: 32px;
+    border-bottom-left-radius: 0;
+}
+.userheader .user_userinfo  ul .li3,
+.userheader .user_userinfo  ul .li3 a{
+    margin: 0px 8px px 0px;
+    border-radius: 32px;
+    border-top-right-radius: 0;
+}
+.userheader .user_userinfo  ul .li4{
+    margin: 0px 0px 0px 8px;
+    border-radius: 32px;
+    border-top-left-radius: 0;
+}
+.userheader .user_userinfo  ul .li4 a{
+    margin: 0px 0px 0px 0px;
+    border-radius: 32px;
+    border-top-left-radius: 0;
+}
+.userheader .user_userinfo  ul li:hover{
+    background: #ff3232;
+}
+.userheader .user_userinfo  ul li:hover a span{
+    color: #fff;
+}
+.userheader .user_userinfo  ul li:hover a strong{
+    color: #fff;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.user_nav{
+    height: 50px;
+    width: 990px;
+    margin: 0px auto 20px;
+}
+.user_nav ul li{
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #333;
+}
+.user_nav ul li a{
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 0px;
+    text-align: center;
+    margin: 0px 20px;
+}
+.user_nav ul li a:hover{
+    color: #ff3232;
+}
+.user_nav ul .current a{
+    border-bottom: 4px solid #ff3232;
+    color: #ff3232;
+    font-weight: bold;
+}
+.user_main{
+    width: 990px;
+    margin: 0px auto 40px;
+    background: #fafafa;
+}
+.user_main_index{
+    width: 990px;
+    background: #fafafa;
+}
+.user_main_index_l{
+    width: 700px;
+    background: #fff;
+    float: left;
+}
+.nocontenttt{
+    padding: 100px 0px 140px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    line-height: 48px;
+}
+.user_main_index_r{
+    width:290px;
+    float: left;
+}
+.uir_con1{
+    width: 276px;
+    padding-left: 14px;
+    position: relative;
+}
+.uir_con1 h3{
+    color: #333;
+    font-size: 18px;
+    line-height: 60px;
+    font-family: Microsoft Yahei,黑体;
+}
+.uir_con1_more{
+    color: #999;
+    position: absolute;
+    right: 14px;
+    top: 0px;
+    line-height: 60px;
+}
+.uir_ul1 li{
+    float: left;
+    height: 62px;
+    width: 62px;
+    margin: 0px 6px 6px 0px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.uir_ul1 li a{
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.uir_ul1 li a img{
+    height: 60px;
+    width: 60px;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+

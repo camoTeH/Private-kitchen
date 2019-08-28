@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/Healthy.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/jquery.js"></script>
+    <link rel="icon" href="images/t113291_86576.jpg" type="images/x-ico" />
+    <style>
+        #page {
+            margin: 20px auto;
+            color: #666;
+            display: block;
+            text-align: center;
+        }
+        #page li {
+            display: inline-block;
+            min-width: 30px;
+            height: 28px;
+            cursor: pointer;
+            color: #666;
+            font-size: 13px;
+            line-height: 28px;
+            background-color: #f9f9f9;
+            border: 1px solid #dce0e0;
+            text-align: center;
+            margin: 0 4px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .xl-nextPage,
+        .xl-prevPage {
+            width: 60px;
+            color: #0073A9;
+            height: 28px;
+        }
+
+        #page li.xl-disabled {
+            opacity: .5;
+            cursor: no-drop;
+        }
+
+        #page li.xl-active {
+            background-color: #0073A9;
+            border-color: #0073A9;
+            color: #FFF
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="header-c">
+            <a href="https://www.meishij.net/" class="logo"></a>
+            <div class="input-top">
+                <div class="blank"></div>
+                <input class="text" type="text" placeholder="请输入菜谱/食材/菜单/作者">
+                <input type="submit" class="submit" value="搜索">
+            </div>
+            <div class="loginitem_h">
+                <a href="userReg.html" class="link">登录</a>
+                <a href="userLogin.html" class="link">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <ul class="main_nav">
+            <li><a href="index.html" class="link"><strong>首页</strong></a></li>
+            <li class="li_1 current">
+                <a href="Menu.html" class="link"><strong>菜谱大全</strong><strong class="iconfont icon-unie628"></strong></a>
+                <div class="san_sj">
+                    <div class="san_sj01" >
+                        <a class="jc" href="">家常菜谱</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">家常菜</a></li>
+                            <li><a href="">凉菜</a></li>
+                            <li><a href="">素食</a></li>
+                            <li><a href="">晚餐</a></li>
+                            <li><a href="">私家菜</a></li>
+                            <li><a href="">热菜</a></li>
+                            <li><a href="">海鲜</a></li>
+                            <li><a href="">孕妇</a></li>
+                            <li><a href="">早餐</a></li>
+                            <li><a href="">午餐</a></li>
+                            <li><a href="">甜品点心</a></li>
+                            <li><a href="">汤粥</a></li>
+                            <li><a href="">宝宝食谱-婴儿食谱</a></li>
+                            <li><a href="">糕点主食</a></li>
+                            <li><a href="">微波炉</a></li>
+                        </ul>
+                        <a class="zh" href="">中华菜系</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">川菜</a></li>
+                            <li><a href="">粤菜</a></li>
+                            <li><a href="">东北菜</a></li>
+                            <li><a href="">湘菜</a></li>
+                            <li><a href="">鲁菜</a></li>
+                            <li><a href="">浙菜</a></li>
+                            <li><a href="">湖北菜</a></li>
+                            <li><a href="">清真菜</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="li_2">
+                <a href="Healthy.html" class="link"><strong>饮食健康</strong><strong class="iconfont icon-unie628"></strong></a>
+                <div class="san_sj">
+                    <div class="san_sj01" >
+                        <a class="jc" href="">饮食健康</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">饮食小常识</a></li>
+                            <li><a href="">美容瘦身</a></li>
+                            <li><a href="">食品安全</a></li>
+                            <li><a href="">养生妙方</a></li>
+                            <li><a href="">饮食禁忌</a></li>
+                            <li><a href="">中医保健</a></li>
+                            <li><a href="">母婴健康饮食</a></li>
+                            <li><a href="">饮食新闻</a></li>
+                        </ul>
+                        <a class="zh" href="">功能性调理</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">清热去火</a></li>
+                            <li><a href="">减肥</a></li>
+                            <li><a href="">祛痰</a></li>
+                            <li><a href="">乌发</a></li>
+                            <li><a href="">滋阴补肾</a></li>
+                            <li><a href="">健脾开胃</a></li>
+                            <li><a href="">消化不良</a></li>
+                            <li><a href="">亲热解毒</a></li>
+                            <li><a href="">补阳壮阳</a></li>
+                            <li><a href="">增肥</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="video.html" class="link"><strong>菜谱视频</strong></a></li>
+            <li><a href="product.html" class="link"><strong>产品下载</strong></a></li>
+        </ul>
+    </div>
+    <div id="bottom_top" class="bottom_back_top_top bottom_back_top_top_slideUp" style="left: 1565px; display:none; bottom: 20px;">
+        <a href="#" class="backtotop pngFix">回到顶部</a>
+    </div>
+    <div class="subject">
+        <div class="listnav">
+            <ul class="listnav_ul">
+                <li><a href="" class="link active">家常菜谱</a></li>
+                <li><a href="" class="link">中华菜系</a></li>
+                <li><a href="" class="link">各地小吃</a></li>
+                <li><a href="" class="link">外国菜谱</a></li>
+                <li><a href="" class="link">烘焙</a></li>
+                <li><a href="" class="link">厨房百科</a></li>
+                <li><a href="" class="link">食材百科</a></li>
+            </ul>
+            <div class="listnav_con clearfix">
+                <dl class="listnav_dl_3 clearfix">
+                    <dt>家常菜谱</dt>
+                    <dd><a href="">家常菜</a></dd>
+                    <dd><a href="">私家菜</a></dd>
+                    <dd><a href="">凉菜</a></dd>
+                    <dd><a href="">海鲜</a></dd>
+                    <dd><a href="">热菜</a></dd>
+                    <dd><a href="">汤粥</a></dd>
+                    <dd><a href="">素食</a></dd>
+                    <dd><a href="">酱料蘸料</a></dd>
+                    <dd><a href="">微波炉</a></dd>
+                    <dd><a href="">火锅底料</a></dd>
+                    <dd><a href="">甜品点心</a></dd>
+                    <dd><a href="">糕点主食</a></dd>
+                    <dd><a href="">干果制作</a></dd>
+                    <dd><a href="">卤酱</a></dd>
+                    <dd><a href="">时尚饮品</a></dd>
+                </dl>
+                <dl class="listnav_dl clearfix">
+                    <dt>每日三餐</dt>
+                    <dd><a href="">早餐</a></dd>
+                    <dd><a href="">午餐</a></dd>
+                    <dd><a href="">晚餐</a></dd>
+                    <dd><a href="">下午茶</a></dd>
+                    <dd><a href="">夜宵</a></dd>
+                </dl>
+                <dl class="listnav_dl_1 clearfix">
+                    <dt>人群</dt>
+                    <dd><a href="">老年人</a></dd>
+                    <dd><a href="">产妇</a></dd>
+                    <dd><a href="">孕妇</a></dd>
+                    <dd><a href="">宝宝食谱-婴儿食谱</a></dd>
+                </dl>
+                <dl class="listnav_dl_2 clearfix">
+                    <dt>功效</dt>
+                    <dd><a href="">疾病调理</a></dd>
+                    <dd><a href="">功能性调理</a></dd>
+                    <dd><a href="">脏腑调理</a></dd>
+                    <dd><a href="">人群膳食</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="bbtitles">印象中的那些妈妈的味道</div>
+        <div class="w1050">
+            <div class="v_list">
+            <div class="v_item">
+                <a href="Sweet.html">
+                    <div class="c1">
+                        <img src="images/menu/a5200514_156644585668560.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            糖醋里脊<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a869659_156525623816719.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            苔菜花生仁<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a13666470_156640426707513.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            《海贝鸡蛋羹》<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a5135206_156643750791088.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            杂蔬牛肉粒<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a13335873_156638320527870.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                                减肥餐五彩龙利鱼<br>
+                            <span>0评价</span>
+                            <span>4人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a4706280_156637536220066.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            香肠玉米青豆饭<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a1258614_156637096968912.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            弹出三文鱼丁<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a5135206_156635578294350.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            吮指鸡翅<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a13280458_156630939977055.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            咖喱鸡翅<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a14004117_156630114268479.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            【咖喱炖牛肉】<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a14000208_156635208956995.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            蒜蓉粉丝蒸丝瓜<br>
+                            <span>0评价</span>
+                            <span>9人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a14004117_156630342580764.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            野山椒炒肥肠<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a13134871_156630404404147.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            红烧排骨<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a13527410_156634932143090.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            蒜蓉粉丝虾<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a2921467_156635221961832.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            辣炒鲜豌豆<br>
+                            <span>0评价</span>
+                            <span>0人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a3701143_156630851441509.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            尖椒土豆片<br>
+                            <span>1评价</span>
+                            <span>13人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a3701143_156630744066079.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            丝瓜炒鸡蛋<br>
+                            <span>0评价</span>
+                            <span>14人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+            <div class="v_item">
+                <a href="">
+                    <div class="c1">
+                        <img src="images/menu/a3701143_156630699441783.jpg" alt="" class="v_img">
+                    </div>
+                    <div class="c2">
+                        <strong class="v_name span">
+                            孜然肉片<br>
+                            <span>0评价</span>
+                            <span>16人气</span>
+                        </strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div id="page"></div>
+        <div class="bottom">
+            <div class="center">
+                <div class="section_3">
+                    <a href=""><img src="images/logo3.png" alt=""></a>
+                </div>
+                <div class="section_4">
+                    <dl>
+                        <dt>友情链接</dt>
+                        <dd><a href="">美食</a></dd>
+                        <dd><a href="">体质测试</a></dd>
+                        <dd><a href="">伊特</a></dd>
+                        <dd><a href="">9酷音乐网</a></dd>
+                        <dd><a href="">365音乐网</a></dd>
+                        <dd><a href="">图吧</a></dd>
+                        <dd><a href="">汽车论坛</a></dd>
+                        <dd><a href="">39健康饮食</a></dd>
+                        <dd><a href="">QQ下载</a></dd>
+                        <dd><a href="">家具网</a></dd>
+                        <dd><a href="">搜狐美食</a></dd>
+                        <dd><a href="">美食天下</a></dd>
+                        <dd><a href="">中华美食网</a></dd>
+                        <dd><a href="">合肥公交网</a></dd>
+                        <dd><a href="">红仓微杂志</a></dd>
+                        <dd><a href="">北京搜房网</a></dd>
+                        <dd><a href="">更多友情链接</a></dd>
+                    </dl>
+                </div>
+                <div class="section_5">
+                    <ul>
+                        <li><a href="">公司简介</a></li>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">产品介绍</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">商务合作</a></li>
+                        <li><a href="">用户协议</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">网站地图</a></li>
+                        <li><a href="">友情链接</a></li>
+                    </ul>
+                    <p>
+                        <a href="">京ICP备14030359号/</a>
+                        <a href="">
+                            <img src="images/logo4.png" alt="">
+                            京公网安备11010802026928
+                        </a>
+                        Copyright © 2003-2019 MEISHIJ CO.,LTD.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/top.js"></script>
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bar.js"></script>
+<script>
+    // xlPaging.js 使用方法
+    $("#page").paging({
+        nowPage: 1, // 当前页码
+        pageNum: 20, // 总页码
+        buttonNum: 7, //要展示的页码数量
+        callback: function (num) { //回调函数
+            console.log(num);
+        }
+    });
+</script>
+</html>

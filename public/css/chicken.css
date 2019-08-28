@@ -1,0 +1,135 @@
+.v_path{
+    color: #fff;
+}
+.v_path a{
+    color: #fff;
+}
+.v_c1{
+    background: rgba(0,0,0,0.4);
+    width: 1030px;
+    margin: 0px auto;
+    font-size: 0px;
+}
+.v_c1 .vw{
+    width: 750px;
+    height: 420px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.v_c1 .vw video{
+    width: 100%;
+    height: 100%;
+}
+.v_c1 .video_replay {
+    background: rgba(0,0,0,0.5) url(https://s1.st.meishij.net/p2/20180918/20180918154901_175.png) center no-repeat;
+    background-size: 160px 160px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    display: none;
+    position: absolute;
+}
+.v_c1 .v_recommend{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    height: 420px;
+    background-color: #25231E;
+}
+.v_c1 .v_recommend .t{
+    font-size: 18px;
+    color: rgba(255,255,255,0.9);
+    padding: 12px 15px;
+    line-height: 24px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.v_c1 .v_recommend .c{
+    width: 280px;
+    height: 347px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 12px 0px;
+}
+.v_c1 .v_recommend .c .recommend_item{
+    padding: 6px 9px;
+    font-size: 0px;
+}
+.v_c1 .v_recommend .c .recommend_item .imgw{
+    width: 120px;
+    height: 67px;
+    display: inline-block;
+    vertical-align: top;
+}
+.v_c1 .v_recommend .c .recommend_item .imgw img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.v_c1 .v_recommend .c .recommend_item .info{
+    height: 67px;
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.v_c1 .v_recommend .c .recommend_item .info strong{
+    font-size: 13px;
+    color: rgba(255,255,255,0.9);
+    line-height: 20px;
+    display: block;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 4px;
+}
+.v_c1 .v_recommend .c .recommend_item .info span{
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    line-height: 18px;
+    margin-top: 4px;
+    display: block;
+}
+.v_c2{
+    width: 1030px;
+    margin: 0px auto;
+}
+.v_c2 h1{
+    font-size: 28px;
+    color: rgba(255,255,255,0.9);
+    line-height: 42px;
+    padding: 25px 0 0;
+    font-weight: 600;
+}
+.v_c2 .v_plays{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    padding: 0px 0px 30px;
+    color: rgba(255,255,255,0.5);
+}
+.v_c3{
+    width: 1030px;
+    margin: 40px auto 40px;
+    background: #fff;
+}
+.v_c3 strong{
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 30px 30px 0px;
+    display: block;
+}
+.v_c3 .v_txt{
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+    padding: 10px 30px 30px;
+}

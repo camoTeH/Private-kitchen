@@ -1,0 +1,213 @@
+.main_w{
+    width: 100%;
+    position: relative;
+}
+.main_w .banner_1{
+    width: 100%;
+    height: 576px;
+    background: url(../images/product/20190104191021_499.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main_w .banner_1 .bigtitle{
+    position: absolute;
+    left: 35%;
+    top: 33%;
+    text-align: center;
+    padding: 0px;
+    white-space: nowrap;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+.main_w .banner_1 .bigtitle strong{
+    font-size: 72px;
+    line-height: 140px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #fff;
+}
+.main_w .banner_1 .bigtitle .line{
+    background: #fff;
+    width: 96%;
+    margin: 0px 2%;
+    height: 3px;
+}
+.main_w .banner_1 .bigtitle em{
+    font-size: 32px;
+    line-height: 92px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    letter-spacing: 12px;
+    color: #fff;
+    white-space: nowrap;
+}
+.main_w .content{
+    width: 100%;    
+}
+.main_w .content .fordl_w{
+    width: 1200px;
+    margin: 0px auto 100px;
+    background: #fff;
+    font-size: 0px;
+}
+.main_w .content .fordl_w .fordl_item{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-top: 100px;
+}
+.main_w .content .fordl_w .fordl_item .icon{
+    height: 80px;
+    width: 80px;
+    margin: 0px auto;
+    background: url(../images/product/Wizard.png) no-repeat;
+    background-size: 480px 80px;
+    opacity: 0.7;
+    transition: all ease 0.2s;
+}
+.main_w .content .fordl_w .fordl_item .icon1{
+    background-position: 0px 0px;
+}
+.main_w .content .fordl_w .fordl_item .icon2{
+    background-position: -80px 0px;
+}
+.main_w .content .fordl_w .fordl_item .icon3{
+    background-position: -160px 0px;
+}
+.main_w .content .fordl_w .fordl_item .icon4{
+    background-position: -240px 0px;
+}
+.main_w .content .fordl_w .fordl_item .icon5{
+    background-position: -320px 0px;
+}
+.main_w .content .fordl_w .fordl_item .icon6{
+    background-position: -400px 0px;
+}
+.main_w .content .fordl_w .fordl_item .des{
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.main_w .content .fordl_w .fordl_item .des2{
+    font-size: 18px;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 0px;
+}
+.main_w .content .fordl_w .fordl_item .qrcode{
+    position: absolute;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.9);
+    padding: 4px;
+    left: -24px;
+    top: -160px;
+    opacity: 0;
+    transition: all ease 0.5s;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.15);
+}
+.main_w .content .fordl_w .fordl_item:hover .qrcode{
+    display: block;
+    opacity: 1;
+}
+.main_w .content .fordl_w .fordl_item .qrcode img{
+    display: block;
+    height: 240px;
+    width: 240px;
+}
+.main_w .content .fordl_w .fordl_item .qrcode .arrow{
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1) transparent transparent transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -20px;
+}
+.main_w .content .dl_item{
+    width: 100%;
+    position: relative;
+}
+.main_w .content .dl_item .txtw{
+    width: 6.25vw;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    margin-left: -3.125vw;
+}
+.main_w .content .dl_item .txtw1{
+    left: 25%;
+}
+.main_w .content .dl_item .txtw .word{
+    color: #000;
+    font-weight: 400;
+    font-size: 2.0833333vw;
+    line-height: 3.3333333vw;
+    text-align: center;
+    width: 2.5vw;
+    position: absolute;
+}
+.main_w .content .dl_item .txtw .word1{
+    right: 0px;
+    top: 8%;
+}
+.main_w .content .dl_item .txtw .word strong{
+    display: block;
+    height: 2.9166666vw;
+    width: 2.91666666vw;
+    background: #f45d52;
+    color: #fff;
+    line-height: 2.91666666vw;
+    margin-bottom: 0.41666666vw;
+}
+.main_w .content .dl_item .txtw .word2{
+    left: 0px;
+    top: 11%;
+}
+.main_w .content .dl_item .txtw2{
+    left: 75%;
+}
+.main_w .content .dl_subtitle{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 60px;
+}
+.main_w .content .dl_subtitle .tw{
+    display: inline-block;
+    vertical-align: top;
+    background: url(https://s1.st.meishij.net/p2/20190105/20190105164226_964.png) 75% top no-repeat;
+    background-size: 100px 100px;
+    padding-top: 38px;
+}
+.main_w .content .dl_subtitle .tw .t1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    color: #000;
+    text-align: left;
+}
+.main_w .content .dl_subtitle .tw .t2{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+

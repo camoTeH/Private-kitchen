@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/1.css">
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="icon" href="images/t113291_86576.jpg" type="images/x-ico" />
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="header-c">
+            <a href="https://www.meishij.net/" class="logo"></a>
+            <div class="input-top">
+                <div class="blank"></div>
+                <input class="text" type="text" placeholder="请输入菜谱/食材/菜单/作者">
+                <input type="submit" class="submit" value="搜索">
+            </div>
+            <div class="loginitem_h">
+                <a href="userReg.html" class="link">登录</a>
+                <a href="userLogin.html" class="link">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <ul class="main_nav">
+            <li class="current">
+                <a href="index.html" class="link">
+                    <strong>首页</strong>
+                </a>
+            </li>
+            <li class="li_1">
+                <a href="Menu.html" class="link"><strong>菜谱大全</strong><strong class="iconfont icon-unie628"></strong></a>
+                <div class="san_sj">
+                    <div class="san_sj01" >
+                        <a class="jc" href="">家常菜谱</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">家常菜</a></li>
+                            <li><a href="">凉菜</a></li>
+                            <li><a href="">素食</a></li>
+                            <li><a href="">晚餐</a></li>
+                            <li><a href="">私家菜</a></li>
+                            <li><a href="">热菜</a></li>
+                            <li><a href="">海鲜</a></li>
+                            <li><a href="">孕妇</a></li>
+                            <li><a href="">早餐</a></li>
+                            <li><a href="">午餐</a></li>
+                            <li><a href="">甜品点心</a></li>
+                            <li><a href="">汤粥</a></li>
+                            <li><a href="">宝宝食谱-婴儿食谱</a></li>
+                            <li><a href="">糕点主食</a></li>
+                            <li><a href="">微波炉</a></li>
+                        </ul>
+                        <a class="zh" href="">中华菜系</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">川菜</a></li>
+                            <li><a href="">粤菜</a></li>
+                            <li><a href="">东北菜</a></li>
+                            <li><a href="">湘菜</a></li>
+                            <li><a href="">鲁菜</a></li>
+                            <li><a href="">浙菜</a></li>
+                            <li><a href="">湖北菜</a></li>
+                            <li><a href="">清真菜</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="li_2">
+                <a href="Healthy.html" class="link"><strong>饮食健康</strong><strong class="iconfont icon-unie628"></strong></a>
+                <div class="san_sj">
+                    <div class="san_sj01" >
+                        <a class="jc" href="">饮食健康</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">饮食小常识</a></li>
+                            <li><a href="">美容瘦身</a></li>
+                            <li><a href="">食品安全</a></li>
+                            <li><a href="">养生妙方</a></li>
+                            <li><a href="">饮食禁忌</a></li>
+                            <li><a href="">中医保健</a></li>
+                            <li><a href="">母婴健康饮食</a></li>
+                            <li><a href="">饮食新闻</a></li>
+                        </ul>
+                        <a class="zh" href="">功能性调理</a>
+                        <ul class="san_sj_ul01">
+                            <li><a href="">清热去火</a></li>
+                            <li><a href="">减肥</a></li>
+                            <li><a href="">祛痰</a></li>
+                            <li><a href="">乌发</a></li>
+                            <li><a href="">滋阴补肾</a></li>
+                            <li><a href="">健脾开胃</a></li>
+                            <li><a href="">消化不良</a></li>
+                            <li><a href="">亲热解毒</a></li>
+                            <li><a href="">补阳壮阳</a></li>
+                            <li><a href="">增肥</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="video.html" class="link"><strong>菜谱视频</strong></a></li>
+            <li><a href="product.html" class="link"><strong>产品下载</strong></a></li>
+        </ul>
+    </div>
+    <div id="bottom_top" class="bottom_back_top_top bottom_back_top_top_slideUp" style="left: 1565px; display:none; bottom: 20px;">
+        <a href="#" class="backtotop pngFix">回到顶部</a>
+    </div>
+    <!-- <canvas id="canvas"></canvas> -->
+    <div class="subject">
+        <div class="center">
+            <div class="section_1">
+                <div class="Recommend">
+                    <h3>今日推荐</h3>
+                </div>
+            </div>
+        </div>
+        <div class="wrap" id="wrap">
+            <ul class="content"></ul>
+            <a href="javascript:;" class="prev">&#60;</a>
+            <a href="javascript:;" class="next">&#62;</a>
+        </div>
+        <div class="center">
+            <div class="section_1">
+                <div class="Recommend">
+                    <h3>八月，滋阴养肺，滋阴益气</h3>
+                </div>
+            </div>
+        </div>
+        <div class="tablist">
+            <ul class="tabmenu">
+                <li><a href="#tab1">水果</a></li>
+                <li><a href="#tab2">蔬菜</a></li>
+                <li><a href="#tab3">五谷</a></li>
+                <li><a href="#tab4">生鲜</a></li>
+            </ul>
+            <div id="tab1" class="tab_content">
+                <ul>
+                    <li><a href=""><img src="images/index/6.jpg" alt=""><span>葡萄</span></a></li>
+                    <li><a href=""><img src="images/index/7.jpg" alt=""><span>哈密瓜</span></a></li>
+                    <li><a href=""><img src="images/index/8.jpg" alt=""><span>西瓜</span></a></li>
+                    <li><a href=""><img src="images/index/9.jpg" alt=""><span>香蕉</span></a></li>
+                    <li><a href=""><img src="images/index/10.jpg" alt=""><span>木瓜</span></a></li>
+                    <li><a href=""><img src="images/index/11.jpg" alt=""><span>李子</span></a></li>
+                    <li><a href=""><img src="images/index/12.jpg" alt=""><span>桃</span></a></li>
+                    <li><a href=""><img src="images/index/13.jpg" alt=""><span>榴莲</span></a></li>
+                </ul>
+            </div>
+            <div id="tab2" class="tab_content">
+                <ul>
+                    <li><a href=""><img src="images/index/14.jpg" alt=""><span>茄子</span></a></li>
+                    <li><a href=""><img src="images/index/15.jpg" alt=""><span>苦瓜</span></a></li>
+                    <li><a href=""><img src="images/index/16.jpg" alt=""><span>豇豆</span></a></li>
+                    <li><a href=""><img src="images/index/17.jpg" alt=""><span>冬瓜</span></a></li>
+                    <li><a href=""><img src="images/index/18.jpg" alt=""><span>土豆</span></a></li>
+                    <li><a href=""><img src="images/index/19.jpg" alt=""><span>丝瓜</span></a></li>
+                    <li><a href=""><img src="images/index/20.jpg" alt=""><span>油麦菜</span></a></li>
+                    <li><a href=""><img src="images/index/21.jpg" alt=""><span>西红柿</span></a></li>
+                </ul>
+            </div>
+            <div id="tab3" class="tab_content">
+                <ul>
+                    <li><a href=""><img src="images/index/22.jpg" alt=""><span>绿豆</span></a></li>
+                    <li><a href=""><img src="images/index/23.jpg" alt=""><span>玉米</span></a></li>
+                    <li><a href=""><img src="images/index/24.jpg" alt=""><span>薏米</span></a></li>
+                    <li><a href=""><img src="images/index/25.jpg" alt=""><span>赤小豆</span></a></li>
+                    <li><a href=""><img src="images/index/26.jpg" alt=""><span>毛豆</span></a></li>
+                    <li><a href=""><img src="images/index/27.jpg" alt=""><span>核桃</span></a></li>
+                    <li><a href=""><img src="images/index/28.jpg" alt=""><span>燕麦</span></a></li>
+                    <li><a href=""><img src="images/index/29.jpg" alt=""><span>小米</span></a></li>
+                </ul>
+            </div>
+            <div id="tab4" class="tab_content">
+                <ul>
+                    <li><a href=""><img src="images/index/30.jpg" alt=""><span>牛肉</span></a></li>
+                    <li><a href=""><img src="images/index/31.jpg" alt=""><span>梭子蟹</span></a></li>
+                    <li><a href=""><img src="images/index/32.jpg" alt=""><span>武昌鱼</span></a></li>
+                    <li><a href=""><img src="images/index/33.jpg" alt=""><span>小龙虾</span></a></li>
+                    <li><a href=""><img src="images/index/34.jpg" alt=""><span>草鱼</span></a></li>
+                    <li><a href=""><img src="images/index/35.jpg" alt=""><span>鸭</span></a></li>
+                    <li><a href=""><img src="images/index/36.jpg" alt=""><span>鲍鱼</span></a></li>
+                    <li><a href=""><img src="images/index/37.jpg" alt=""><span>鱿鱼</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="center_1">
+            <div class="section_1">
+                <div class="Titel">
+                    <h3>最新菜谱</h3>
+                </div>
+            </div>
+        </div>
+        <div class="Menu">
+            <ul class="Menu_ul_1">
+                <li><a href="">
+                    <img src="images/index/38.jpg" alt="">
+                    <figcaption>
+                        <h3>手工芋圆烧仙草</h3>
+                        <p>夏日很爱烧仙草，有时会加在奶茶里，这次做一款芋圆烧仙草。芋圆如果喜欢Q一些就多加些木薯粉。汤底可以根据自己喜好调整。</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+                <li><a href="">
+                    <img src="images/index/39.jpg" alt="">
+                    <figcaption>
+                        <h3>红薯饼</h3>
+                        <p>想要做一个带着一些甜味的食物，一会就做一大盘，好吃的不得了！</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+                <li><a href="">
+                    <img src="images/index/40.jpg" alt="">
+                    <figcaption>
+                        <h3>干贝淡菜小米粥</h3>
+                        <p>喝点儿粥，汤汤水水的东西比较滋润。顺便把冻着的淡菜消耗掉。</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+                <li><a href="">
+                    <img src="images/index/41.jpg" alt="">
+                    <figcaption>
+                        <h3>火腿水果三明治</h3>
+                        <p>精致的BRUNO轻食机，让西餐来的更容易，在家就可以轻松品尝到简单美味的三明治。</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+            </ul>
+            <ul class="Menu_ul_2">
+                <li><a href="">
+                    <img src="images/index/42.jpg" alt="">
+                    <figcaption>
+                        <h3>杏鲍菇黑椒牛排粒</h3>
+                        <p>牛肉中含有大量的铁元素，极易被人体消化吸收。</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+                <li><a href="">
+                    <img src="images/index/43.jpg" alt="">
+                    <figcaption>
+                        <h3>煎馒头片</h3>
+                        <p>馒头做为传统的中式面点，也能吃出新花样。</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+                <li><a href="">
+                    <img src="images/index/44.jpg" alt="">
+                    <figcaption>
+                        <h3>鸡蛋羹</h3>
+                        <p>蒸比炒更健康，早餐来一碗，幸福一整天</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+                <li><a href="">
+                    <img src="images/index/45.jpg" alt="">
+                    <figcaption>
+                        <h3>酸黄瓜豇豆角</h3>
+                        <p>口感脆嫩，酸爽清口，酸中有甜，甜中带酸。</p>
+                        <div class="div01"></div>
+                        <div class="div02"></div>
+                    </figcaption>
+                </a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <div class="section_1">
+                <div class="Recommend">
+                    <h3>健康新闻</h3>
+                </div>
+            </div>
+        </div>
+        <div class="section_2">
+            <div class="News">
+                <div class="Modular_1">
+                    <a href=""><img src="images/index/46.jpg" alt=""></a>
+                    <ul>
+                        <li><a href=""><h3>启航未来|君顶酒庄品牌升级新品上</h3></a></li>
+                        <li><a href=""><h3>免疫力下降吃什么好？看看汤臣倍健</h3></a></li>
+                        <li><a href=""><h3>宝宝益生菌可以每天吃吗？</h3></a></li>
+                    </ul>
+                </div>
+                <div class="Modular_2">
+                    <a href=""><img src="images/index/47.jpg" alt=""></a>
+                    <ul>
+                        <li><a href=""><h3>启航未来|君顶酒庄品牌升级新品上</h3></a></li>
+                        <li><a href=""><h3>免疫力下降吃什么好？看看汤臣倍健</h3></a></li>
+                        <li><a href=""><h3>宝宝益生菌可以每天吃吗？</h3></a></li>
+                    </ul>
+                </div>
+                <div class="Modular_1 increase">
+                    <a href=""><img src="images/index/48.jpg" alt=""></a>
+                    <ul>
+                        <li><a href=""><h3>启航未来|君顶酒庄品牌升级新品上</h3></a></li>
+                        <li><a href=""><h3>免疫力下降吃什么好？看看汤臣倍健</h3></a></li>
+                        <li><a href=""><h3>宝宝益生菌可以每天吃吗？</h3></a></li>
+                    </ul>
+                </div>
+                <div class="Modular_2 increase">
+                    <a href=""><img src="images/index/49.jpg" alt=""></a>
+                    <ul>
+                        <li><a href=""><h3>启航未来|君顶酒庄品牌升级新品上</h3></a></li>
+                        <li><a href=""><h3>免疫力下降吃什么好？看看汤臣倍健</h3></a></li>
+                        <li><a href=""><h3>宝宝益生菌可以每天吃吗？</h3></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="center">
+                <div class="section_3">
+                    <a href=""><img src="images/logo3.png" alt=""></a>
+                </div>
+                <div class="section_4">
+                    <dl>
+                        <dt>友情链接</dt>
+                        <dd><a href="">美食</a></dd>
+                        <dd><a href="">体质测试</a></dd>
+                        <dd><a href="">伊特</a></dd>
+                        <dd><a href="">9酷音乐网</a></dd>
+                        <dd><a href="">365音乐网</a></dd>
+                        <dd><a href="">图吧</a></dd>
+                        <dd><a href="">汽车论坛</a></dd>
+                        <dd><a href="">39健康饮食</a></dd>
+                        <dd><a href="">QQ下载</a></dd>
+                        <dd><a href="">家具网</a></dd>
+                        <dd><a href="">搜狐美食</a></dd>
+                        <dd><a href="">美食天下</a></dd>
+                        <dd><a href="">中华美食网</a></dd>
+                        <dd><a href="">合肥公交网</a></dd>
+                        <dd><a href="">红仓微杂志</a></dd>
+                        <dd><a href="">北京搜房网</a></dd>
+                        <dd><a href="">更多友情链接</a></dd>
+                    </dl>
+                </div>
+                <div class="section_5">
+                    <ul>
+                        <li><a href="">公司简介</a></li>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">产品介绍</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">商务合作</a></li>
+                        <li><a href="">用户协议</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">网站地图</a></li>
+                        <li><a href="">友情链接</a></li>
+                    </ul>
+                    <p>
+                        <a href="">京ICP备14030359号/</a>
+                        <a href="">
+                            <img src="images/logo4.png" alt="">
+                            京公网安备11010802026928
+                        </a>
+                        Copyright © 2003-2019 MEISHIJ CO.,LTD.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/top.js"></script>
+</html>
